@@ -1,8 +1,6 @@
 import chat_code,analyser
 import streamlit as st
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
-from collections import Counter
 st.sidebar.title("whatapp chat analysis")
 uploaded_file=st.sidebar.file_uploader("choose a file")
 if uploaded_file is not None:
