@@ -1,4 +1,3 @@
-import emoji.unicode_codes
 from urlextract import URLExtract
 from wordcloud import WordCloud
 from collections import Counter
